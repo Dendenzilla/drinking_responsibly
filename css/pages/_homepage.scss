@@ -62,7 +62,7 @@ header {
 }
 .landing {
     height: 100vh;
-    background: url(../../img/shutterstock_144807262-2.jpg) center/cover;
+    background: url(../img/shutterstock_144807262-2.jpg) center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,7 +182,7 @@ h1 {
 .tips, .about {
     width: 100%;
     height: 970px;
-    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../../img/train.jpg) center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/train.jpg) center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,7 +221,7 @@ h1 {
     color: rgba(0,0,0,.8);
 }
 .about {
-    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../../img/shutterstock_252697756.jpg) center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/shutterstock_252697756.jpg) center/cover;
     & p {
         width: 800px;
         line-height: 35px;
