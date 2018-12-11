@@ -25,3 +25,14 @@ function stickyFct() {
 $(window).scroll(function(){
     stickyFct();
 });
+
+////////////// CODE ANCHOR
+$('a.txtAni').click(function(){
+    $('.nav').removeClass('active');
+    $('.txtAni').removeClass('active');
+    $('html, body').animate({
+        scrollTop: $($(this).attr('href')).offset().top
+    }, 500);
+    //return false;
+    
+});
